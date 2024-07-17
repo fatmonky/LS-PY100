@@ -13,7 +13,7 @@ def factorial(num):
         num -= 1
     return counter
 '''
-
+'''
 # model answer
 def factorial(num):
     counter = 1
@@ -28,6 +28,23 @@ def factorial(n):
     for number in range(n, 0, -1):
         result *= number
 
+    return result
+'''
+
+# try 2 on 17 Jul 21
+'''
+def factorial(num):
+    result = 1
+    while num > 0:
+        result *= num
+        num -= 1
+    return result
+'''
+print('using for loop')
+def factorial(num):
+    result = 1
+    for x in range(num, 0, -1):
+        result *= x
     return result
 
 # test
